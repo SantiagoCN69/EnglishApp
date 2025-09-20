@@ -97,3 +97,13 @@ function actualizarContadores() {
     correctasElement.textContent = localStorage.getItem("correctas") || 0;
     incorrectasElement.textContent = localStorage.getItem("incorrectas") || 0;
 }
+
+const infomodal = document.getElementById("infomodal");
+const modal = document.getElementById("modal");
+const cerrarModal = document.getElementById("cerrar-modal");     
+infomodal.addEventListener("click", () => { 
+    modal.classList.add("show");
+});
+cerrarModal.addEventListener("click", () => { 
+    modal.classList.remove("show");
+});
