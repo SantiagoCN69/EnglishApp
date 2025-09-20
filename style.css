@@ -39,6 +39,7 @@ nav {
         border-top: 1px solid #333;
         padding: 0.5rem;
         position: relative;
+        user-select: none;
     }
 }
 
