@@ -69,7 +69,11 @@ gap: 2rem;
 }
 
 button.incorrecto {
-    border-color: red;
+    background-color: #b00;
+    animation: rebote 0.5s ease-in-out;
+}
+button.correcto {
+    background-color: #4CAF50;
     animation: rebote 0.5s ease-in-out;
 }
 
@@ -109,16 +113,13 @@ button.incorrecto {
     background-color: #333;
     color: #fff;
     cursor: pointer; 
-    transition: transform .2s ease-in-out, background-color .2s ease-in-out;
+    transition: transform .3s ease-in-out, background-color .3s ease-in-out;
 }
 @media (hover: hover) {
     button:hover {
         background-color: #555;
         transform: scale(.9);
     }
-}
-button:active {
-    transform: scale(.8);
 }
 #btn-reiniciar {
     background-color: #338;

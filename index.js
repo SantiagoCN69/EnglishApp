@@ -6,10 +6,6 @@ const buttonsContainer = document.getElementById("buttons");
 const optionButtons = Array.from(document.querySelectorAll('#buttons button'));
 const btnReiniciar = document.getElementById("btn-reiniciar");
 
-const notificacion = document.createElement('div');
-notificacion.className = 'notificacion';
-notificacion.textContent = '¡Correcto!';
-document.body.appendChild(notificacion);
 
 actualizarContadores();
 
@@ -53,35 +49,27 @@ function onOpcionClick(buttonEl) {
     habilitarOpciones(false);
 
     if (respuesta === respuestaCorrecta) {
-        respuestaCorrectaf();
+        buttonEl.classList.add("correcto");
+        localStorage.setItem("correctas", parseInt(localStorage.getItem("correctas") || 0) + 1);
+        localStorage.setItem("racha", parseInt(localStorage.getItem("racha") || 0) + 1);
+        FraseRandom();
+
     } else {
         buttonEl.classList.add("incorrecto");
         localStorage.setItem("incorrectas", parseInt(localStorage.getItem("incorrectas") || 0) + 1);
         localStorage.setItem("racha", 0);
-        actualizarContadores();
-
-        setTimeout(() => {
-            buttonEl.classList.remove("incorrecto");
-            habilitarOpciones(true);
-        }, 500);
     }
+    actualizarContadores();
+    habilitarOpciones(true);
+    setTimeout(() => {
+        buttonEl.classList.remove("correcto", "incorrecto");
+    }, 500);
 }
 
 function habilitarOpciones(habilitar) {
     optionButtons.forEach(btn => btn.disabled = !habilitar);
 }
 
-function respuestaCorrectaf() {
-    notificacion.classList.add('mostrar');
-    localStorage.setItem("correctas", parseInt(localStorage.getItem("correctas") || 0) + 1);
-    localStorage.setItem("racha", parseInt(localStorage.getItem("racha") || 0) + 1);
-    actualizarContadores();
-
-    setTimeout(() => {
-        notificacion.classList.remove('mostrar');
-        FraseRandom();
-    }, 600);
-}
 
 function actualizarContadores() {
     const rachaElement = document.getElementById("racha");
