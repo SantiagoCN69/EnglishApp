@@ -1,0 +1,199 @@
+{
+  "preguntas": [
+    {
+      "question": "Female parent.",
+      "options": ["Mother", "Aunt", "Niece", "Daughter", "Sister"],
+      "answer": "Mother"
+    },
+    {
+      "question": "Male parent.",
+      "options": ["Father", "Uncle", "Nephew", "Son", "Brother"],
+      "answer": "Father"
+    },
+    {
+      "question": "Father and mother.",
+      "options": ["Parents", "Grandparents", "Family", "Couple", "Siblings"],
+      "answer": "Parents"
+    },
+    {
+      "question": "Grandfather and grandmother.",
+      "options": ["Grandparents", "Parents", "Family", "Ancestors", "Relatives"],
+      "answer": "Grandparents"
+    },
+    {
+      "question": "Your father's brother.",
+      "options": ["Uncle", "Cousin", "Brother-in-law", "Stepfather", "Nephew"],
+      "answer": "Uncle"
+    },
+    {
+      "question": "Father's sister.",
+      "options": ["Aunt", "Sister", "Niece", "Stepmother", "Cousin"],
+      "answer": "Aunt"
+    },
+    {
+      "question": "Sister's husband.",
+      "options": ["Brother-in-law", "Husband", "Uncle", "Cousin", "Nephew"],
+      "answer": "Brother-in-law"
+    },
+    {
+      "question": "Brother's wife.",
+      "options": ["Sister-in-law", "Wife", "Aunt", "Cousin", "Niece"],
+      "answer": "Sister-in-law"
+    },
+    {
+      "question": "Married man.",
+      "options": ["Husband", "Brother-in-law", "Uncle", "Father", "Fiancé"],
+      "answer": "Husband"
+    },
+    {
+      "question": "Married woman.",
+      "options": ["Wife", "Sister-in-law", "Aunt", "Mother", "Fiancée"],
+      "answer": "Wife"
+    },
+    {
+      "question": "Plural of child.",
+      "options": ["Children", "Kidses", "Childs", "Childes", "Offsprings"],
+      "answer": "Children"
+    },
+    {
+      "question": "Sister's daughter.",
+      "options": ["Niece", "Daughter", "Cousin", "Girl", "Aunt"],
+      "answer": "Niece"
+    },
+    {
+      "question": "Sister's son.",
+      "options": ["Nephew", "Son", "Cousin", "Uncle", "Boy"],
+      "answer": "Nephew"
+    },
+    {
+      "question": "Group of relatives.",
+      "options": ["Family", "Team", "Parents", "Group", "Clan"],
+      "answer": "Family"
+    },
+    {
+      "question": "Mother's mother.",
+      "options": ["Grandmother", "Mother", "Aunt", "Sister", "Cousin"],
+      "answer": "Grandmother"
+    },
+    {
+      "question": "Your dad's dad.",
+      "options": ["Grandfather", "Father", "Uncle", "Brother", "Stepfather"],
+      "answer": "Grandfather"
+    },
+    {
+      "question": "Father's wife (not your mom).",
+      "options": ["Stepmother", "Mother", "Aunt", "Wife", "Sister-in-law"],
+      "answer": "Stepmother"
+    },
+    {
+      "question": "Same mom and different dad.",
+      "options": ["Half sister", "Sister", "Stepsister", "Cousin", "Niece"],
+      "answer": "Half sister"
+    },
+    {
+      "question": "Your mother's sister's son.",
+      "options": ["Cousin", "Nephew", "Uncle", "Brother", "Brother-in-law"],
+      "answer": "Cousin"
+    },
+    {
+      "question": "Your sister's husband's brother.",
+      "options": ["Brother-in-law", "Cousin", "Uncle", "Nephew", "Stepbrother"],
+      "answer": "Brother-in-law"
+    },
+    {
+      "question": "Son of your son or daughter.",
+      "options": ["Grandson", "Granddaughter", "Nephew", "Cousin", "Son"],
+      "answer": "Grandson"
+    },
+    {
+      "question": "Daughter of your son or daughter.",
+      "options": ["Granddaughter", "Grandson", "Niece", "Cousin", "Daughter"],
+      "answer": "Granddaughter"
+    },
+    {
+      "question": "Child of your child (boy or girl).",
+      "options": ["Grandchild", "Child", "Cousin", "Nephew", "Niece"],
+      "answer": "Grandchild"
+    },
+    {
+      "question": "Man you are married to.",
+      "options": ["Husband", "Brother-in-law", "Fiancé", "Partner", "Spouse"],
+      "answer": "Husband"
+    },
+    {
+      "question": "Woman you are married to.",
+      "options": ["Wife", "Sister-in-law", "Fiancée", "Partner", "Spouse"],
+      "answer": "Wife"
+    },
+    {
+      "question": "Boy child.",
+      "options": ["Son", "Brother", "Nephew", "Grandson", "Cousin"],
+      "answer": "Son"
+    },
+    {
+      "question": "Girl child.",
+      "options": ["Daughter", "Sister", "Niece", "Granddaughter", "Cousin"],
+      "answer": "Daughter"
+    },
+    {
+      "question": "Brother with the same mother and a different father.",
+      "options": ["Half brother", "Stepbrother", "Brother", "Cousin", "Twin"],
+      "answer": "Half brother"
+    },
+    {
+      "question": "Sister with the same father and a different mother.",
+      "options": ["Half sister", "Stepsister", "Sister", "Cousin", "Twin"],
+      "answer": "Half sister"
+    },
+    {
+      "question": "Man married to your mother (not your father).",
+      "options": ["Stepfather", "Father-in-law", "Uncle", "Grandfather", "Husband"],
+      "answer": "Stepfather"
+    },
+    {
+      "question": "Mother of your husband or wife.",
+      "options": ["Mother-in-law", "Stepmother", "Aunt", "Grandmother", "Sister-in-law"],
+      "answer": "Mother-in-law"
+    },
+    {
+      "question": "Father of your husband or wife.",
+      "options": ["Father-in-law", "Stepfather", "Uncle", "Grandfather", "Brother-in-law"],
+      "answer": "Father-in-law"
+    },
+    {
+      "question": "Husband or wife (general word).",
+      "options": ["Spouse", "Partner", "Couple", "Husband", "Wife"],
+      "answer": "Spouse"
+    },
+    {
+      "question": "Two children born on the same day to the same mother.",
+      "options": ["Twins", "Siblings", "Children", "Cousins", "Pair"],
+      "answer": "Twins"
+    },
+    {
+      "question": "Brother or sister.",
+      "options": ["Sibling", "Relative", "Cousin", "Parent", "Child"],
+      "answer": "Sibling"
+    },
+    {
+      "question": "A person related to you (general).",
+      "options": ["Relative", "Sibling", "Friend", "Neighbor", "Acquaintance"],
+      "answer": "Relative"
+    },
+    {
+      "question": "A child with no brothers or sisters.",
+      "options": ["Only child", "Single child", "Lonely child", "Solo child", "Unique child"],
+      "answer": "Only child"
+    },
+    {
+      "question": "Husband of your daughter.",
+      "options": ["Son-in-law", "Brother-in-law", "Nephew", "Cousin", "Stepbrother"],
+      "answer": "Son-in-law"
+    },
+    {
+      "question": "Wife of your son.",
+      "options": ["Daughter-in-law", "Sister-in-law", "Niece", "Cousin", "Stepsister"],
+      "answer": "Daughter-in-law"
+    }
+  ]
+}
