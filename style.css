@@ -23,13 +23,30 @@ nav {
     display:flex;
     justify-content: space-around;
     padding: 1.3rem;
+    flex-wrap: wrap;
     p {
         white-space: nowrap;
-        overflow: hidden;
         border-top: 1px solid #333;
         padding: 0.5rem;
-
+        position: relative;
+        -webkit-user-select: none;
+        user-select: none;
     }
+}
+
+nav p:nth-child(1):active::after {
+    content: attr(data-icon);
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 158, 158);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    padding: .5rem;
+    border-radius: 15px;
 }
 main {
 flex: 1;
@@ -47,6 +64,10 @@ gap: 2rem;
     margin-inline: 1rem;
     position: relative;
     padding-right: 30px;
+    transition: opacity .5s ease-in-out;
+    &.animacion {
+   opacity: .5;
+}
 }
 
 #frase_a_completar.sin-cargar::after {
@@ -74,7 +95,6 @@ button.incorrecto {
 }
 button.correcto {
     background-color: #4CAF50;
-    animation: rebote 0.5s ease-in-out;
 }
 
 .notificacion {
@@ -117,7 +137,6 @@ button.correcto {
 }
 @media (hover: hover) {
     button:hover {
-        background-color: #555;
         transform: scale(.9);
     }
 }
