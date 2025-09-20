@@ -150,19 +150,35 @@ function comprobarRespuesta() {
     inputRespuesta.classList.remove("correcto", "incorrecto");
     
     if (respuesta === respuestaCorrecta) {
-        respuestaCorrectaf()
+        respuestaCorrectaf()  
     } else {
         inputRespuesta.classList.add("incorrecto");
-        inputRespuesta.value = '';
-        inputRespuesta.focus();
+        localStorage.setItem("incorrectas", parseInt(localStorage.getItem("incorrectas") || 0) + 1);
+        localStorage.setItem("racha", 0);
     }
+    actualizarContadores();
 }
 
 
 function respuestaCorrectaf() {
     notificacion.classList.add('mostrar');
     FraseRandom();
+    localStorage.setItem("correctas", parseInt(localStorage.getItem("correctas") || 0) + 1);
+    localStorage.setItem("racha", parseInt(localStorage.getItem("racha") || 0) + 1);
+
     setTimeout(() => {
         notificacion.classList.remove('mostrar');
-    }, 1000);
+    }, 1000);}
+
+actualizarContadores();
+
+function actualizarContadores() {
+    const rachaElement = document.getElementById("racha");
+    const correctasElement = document.getElementById("correctas");
+    const incorrectasElement = document.getElementById("incorrectas");
+    
+    rachaElement.textContent = localStorage.getItem("racha") || 0;
+    correctasElement.textContent = localStorage.getItem("correctas") || 0;
+    incorrectasElement.textContent = localStorage.getItem("incorrectas") || 0;
 }
+

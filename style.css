@@ -19,10 +19,21 @@ header {
     padding: 1rem;
     text-align: center;
 }
+nav {
+    display:flex;
+    justify-content: space-around;
+    padding: 1.3rem;
+    p {
+        white-space: nowrap;
+        overflow: hidden;
+        border-top: 1px solid #333;
+        padding: 0.5rem;
 
+    }
+}
 main {
 flex: 1;
-margin-bottom: 20dvh;
+margin-bottom: 30dvh;
 display: flex;
 flex-direction: column;
 justify-content: center;
