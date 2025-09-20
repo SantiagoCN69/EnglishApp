@@ -11,7 +11,7 @@ const rachaLabel = document.querySelector('nav p:nth-child(1)');
 
 actualizarContadores();
 
-fetch('ejercicios.json')
+fetch('prepositions.json')
   .then(response => response.json())
   .then(data => {
     prepositionExercises = data.ejercicios;

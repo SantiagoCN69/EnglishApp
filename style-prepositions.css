@@ -60,7 +60,6 @@ nav p:nth-child(1):active::after {
 
 main {
 flex: 1;
-margin-bottom: 30dvh;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -135,7 +134,7 @@ button.correcto {
 }
  button {
     border-radius: 10px;
-    padding: 1rem 1.5rem;
+    padding: .9rem 1.2rem;
     margin-inline: 5px;
     font-size: 1rem;
     border: none;
@@ -153,6 +152,29 @@ button.correcto {
 #btn-reiniciar {
     background-color: #338;
 }
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    color: #666;
+}
+#otras-practicas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-block: 2rem;
+    a {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    img {
+        width: 200px;
+    }
+}
+}
+
 footer {
     background-color: #333;
     color: #fff;
