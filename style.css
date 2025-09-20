@@ -68,17 +68,7 @@ gap: 2rem;
     100% { transform: translateY(-50%) rotate(360deg); }
 }
 
-input {
-    padding: 1rem; 
-    font-size: 1rem;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid #333;
-    width: 6.5rem;
-    transition: border-color 0.3s ease;
-}
-
-input.incorrecto {
+button.incorrecto {
     border-color: red;
     animation: rebote 0.5s ease-in-out;
 }
@@ -109,19 +99,28 @@ input.incorrecto {
     75% { transform: translateX(-5px); }
     100% { transform: translateX(0); }
 }
-#buttons button{
-    padding: 1rem;
+ button {
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-inline: 5px;
     font-size: 1rem;
     border: none;
     outline: none;
     background-color: #333;
     color: #fff;
     cursor: pointer; 
+    transition: transform .2s ease-in-out, background-color .2s ease-in-out;
 }
-#buttons button:hover {
-    background-color: #555;
+@media (hover: hover) {
+    button:hover {
+        background-color: #555;
+        transform: scale(.9);
+    }
 }
-#buttons #btn-reiniciar {
+button:active {
+    transform: scale(.8);
+}
+#btn-reiniciar {
     background-color: #338;
 }
 footer {
