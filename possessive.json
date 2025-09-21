@@ -29,6 +29,26 @@
     { "sentence": "Where is ___ ticket?", "answer": "your" },
     { "sentence": "I need to wash ___ hands.", "answer": "my" },
     { "sentence": "The bird is in ___ nest.", "answer": "its" },
-    { "sentence": "Sofia is doing ___ makeup.", "answer": "her" }
+    { "sentence": "Sofia is doing ___ makeup.", "answer": "her" },
+    { "sentence": "The dog wagged ___ tail.", "answer": "its" },
+    { "sentence": "She forgot ___ keys at home.", "answer": "her" },
+    { "sentence": "He cleaned ___ room yesterday.", "answer": "his" },
+    { "sentence": "We brought ___ friends to the party.", "answer": "our" },
+    { "sentence": "They lost ___ tickets again.", "answer": "their" },
+    { "sentence": "Is this ___ seat or mine?", "answer": "your" },
+    { "sentence": "I finished ___ project on time.", "answer": "my" },
+    { "sentence": "The company raised ___ prices.", "answer": "its" },
+    { "sentence": "Anna called ___ sister last night.", "answer": "her" },
+    { "sentence": "Mark broke ___ phone screen.", "answer": "his" },
+    { "sentence": "We packed ___ bags for the trip.", "answer": "our" },
+    { "sentence": "They are selling ___ house.", "answer": "their" },
+    { "sentence": "Can I borrow ___ pen?", "answer": "your" },
+    { "sentence": "I can’t find ___ glasses.", "answer": "my" },
+    { "sentence": "The tree dropped ___ leaves in fall.", "answer": "its" },
+    { "sentence": "The students submitted ___ homework.", "answer": "their" },
+    { "sentence": "The baby drank ___ milk.", "answer": "its" },
+    { "sentence": "The teacher praised ___ class.", "answer": "her" },
+    { "sentence": "The boy forgot ___ lunch.", "answer": "his" },
+    { "sentence": "Please wipe ___ shoes before entering.", "answer": "your" }
   ]
 }
