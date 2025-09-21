@@ -133,17 +133,17 @@ cerrarModal?.addEventListener("click", () => modal?.classList.remove("show"));
 
 // Nota: La primera carga de frase se dispara tras cargar el JSON exitosamente.
 
-const contenedor = document.getElementById("otras-practicas");
+// const contenedor = document.getElementById("otras-practicas");
 
-contenedor.innerHTML += contenedor.innerHTML;
+// contenedor.innerHTML += contenedor.innerHTML;
 
-function scrollInfinito() {
-  if (contenedor.scrollLeft >= contenedor.scrollWidth / 2) {
-    contenedor.scrollLeft = 0; 
-  } else {
-    contenedor.scrollLeft += .2; 
-  }
-  requestAnimationFrame(scrollInfinito);
-}
+// function scrollInfinito() {
+//   if (contenedor.scrollLeft >= contenedor.scrollWidth / 2) {
+//     contenedor.scrollLeft = 0; 
+//   } else {
+//     contenedor.scrollLeft += .2; 
+//   }
+//   requestAnimationFrame(scrollInfinito);
+// }
 
-scrollInfinito();
+// scrollInfinito();
