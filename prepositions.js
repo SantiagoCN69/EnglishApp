@@ -107,3 +107,18 @@ infomodal.addEventListener("click", () => {
 cerrarModal.addEventListener("click", () => { 
     modal.classList.remove("show");
 });
+
+const contenedor = document.getElementById("otras-practicas");
+
+contenedor.innerHTML += contenedor.innerHTML;
+
+function scrollInfinito() {
+  if (contenedor.scrollLeft >= contenedor.scrollWidth / 2) {
+    contenedor.scrollLeft = 0; 
+  } else {
+    contenedor.scrollLeft += .2; 
+  }
+  requestAnimationFrame(scrollInfinito);
+}
+
+scrollInfinito();
