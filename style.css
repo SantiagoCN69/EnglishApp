@@ -169,6 +169,8 @@ gap: 2rem;
       }
       gap: 1rem;
       img {
+	display:block;
+	margin-inline:auto;
         width: 200px;
         border-radius: 10px;
         transition: transform .3s ease-in-out;
