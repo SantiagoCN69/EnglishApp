@@ -194,6 +194,241 @@
       "question": "Wife of your son.",
       "options": ["Daughter-in-law", "Sister-in-law", "Niece", "Cousin", "Stepsister"],
       "answer": "Daughter-in-law"
+    },
+    {
+      "question": "What is: Sister?",
+      "options": ["Hermana", "Hermano", "Madre", "Hija", "Sobrina"],
+      "answer": "Hermana"
+    },
+    {
+      "question": "What is: Father?",
+      "options": ["Padre", "Tío", "Hermano", "Hijo", "Abuelo"],
+      "answer": "Padre"
+    },
+    {
+      "question": "What is: Mother?",
+      "options": ["Madre", "Tía", "Hermana", "Hija", "Abuela"],
+      "answer": "Madre"
+    },
+    {
+      "question": "What is: Parents?",
+      "options": ["Padres", "Abuelos", "Parientes", "Hijos", "Tíos"],
+      "answer": "Padres"
+    },
+    {
+      "question": "What is: Son?",
+      "options": ["Hijo", "Sobrino", "Nieto", "Hermano", "Esposo"],
+      "answer": "Hijo"
+    },
+    {
+      "question": "What is: Daughter?",
+      "options": ["Hija", "Sobrina", "Nieta", "Hermana", "Esposa"],
+      "answer": "Hija"
+    },
+    {
+      "question": "What is: Children?",
+      "options": ["Hijos / niños", "Padres", "Parientes", "Gemelos", "Bebé"],
+      "answer": "Hijos / niños"
+    },
+    {
+      "question": "What is: Brother?",
+      "options": ["Hermano", "Primo", "Padre", "Yerno", "Cuñado"],
+      "answer": "Hermano"
+    },
+    {
+      "question": "What is: Sibling?",
+      "options": ["Hermano/a (forma general)", "Pariente", "Primo/a", "Hijo/a", "Suegro/a"],
+      "answer": "Hermano/a (forma general)"
+    },
+    {
+      "question": "What is: Baby?",
+      "options": ["Bebé", "Niño", "Nieto", "Ahijado", "Hijo"],
+      "answer": "Bebé"
+    },
+    {
+      "question": "What is: Grandfather?",
+      "options": ["Abuelo", "Padrino", "Suegro", "Tío", "Padre"],
+      "answer": "Abuelo"
+    },
+    {
+      "question": "What is: Grandmother?",
+      "options": ["Abuela", "Madrina", "Suegra", "Tía", "Madre"],
+      "answer": "Abuela"
+    },
+    {
+      "question": "What is: Grandparents?",
+      "options": ["Abuelos", "Padres", "Parientes", "Ancestros", "Descendientes"],
+      "answer": "Abuelos"
+    },
+    {
+      "question": "What is: Grandson?",
+      "options": ["Nieto", "Sobrino", "Hijo", "Ahijado", "Primo"],
+      "answer": "Nieto"
+    },
+    {
+      "question": "What is: Granddaughter?",
+      "options": ["Nieta", "Sobrina", "Hija", "Ahijada", "Prima"],
+      "answer": "Nieta"
+    },
+    {
+      "question": "What is: Uncle?",
+      "options": ["Tío", "Padrino", "Suegro", "Yerno", "Hermano"],
+      "answer": "Tío"
+    },
+    {
+      "question": "What is: Aunt?",
+      "options": ["Tía", "Madrina", "Suegra", "Nuera", "Hermana"],
+      "answer": "Tía"
+    },
+    {
+      "question": "What is: Nephew?",
+      "options": ["Sobrino", "Primo", "Nieto", "Hijo", "Yerno"],
+      "answer": "Sobrino"
+    },
+    {
+      "question": "What is: Niece?",
+      "options": ["Sobrina", "Prima", "Nieta", "Hija", "Nuera"],
+      "answer": "Sobrina"
+    },
+    {
+      "question": "What is: Cousin?",
+      "options": ["Primo / prima", "Sobrino / sobrina", "Tío / tía", "Suegro / suegra", "Yerno / nuera"],
+      "answer": "Primo / prima"
+    },
+    {
+      "question": "What is: Husband?",
+      "options": ["Esposo", "Novio", "Yerno", "Padrino", "Hermano"],
+      "answer": "Esposo"
+    },
+    {
+      "question": "What is: Wife?",
+      "options": ["Esposa", "Novia", "Nuera", "Madrina", "Hermana"],
+      "answer": "Esposa"
+    },
+    {
+      "question": "What is: Partner?",
+      "options": ["Pareja", "Esposo", "Amigo", "Pariente", "Conocido"],
+      "answer": "Pareja"
+    },
+    {
+      "question": "What is: Boyfriend?",
+      "options": ["Novio", "Esposo", "Pareja", "Prometido", "Yerno"],
+      "answer": "Novio"
+    },
+    {
+      "question": "What is: Girlfriend?",
+      "options": ["Novia", "Esposa", "Pareja", "Prometida", "Nuera"],
+      "answer": "Novia"
+    },
+    {
+      "question": "What is: Fiancé?",
+      "options": ["Prometido", "Novio", "Esposo", "Pareja", "Yerno"],
+      "answer": "Prometido"
+    },
+    {
+      "question": "What is: Fiancée?",
+      "options": ["Prometida", "Novia", "Esposa", "Pareja", "Nuera"],
+      "answer": "Prometida"
+    },
+    {
+      "question": "What is: In-laws?",
+      "options": ["Familia política", "Parientes", "Ancestros", "Descendientes", "Padres"],
+      "answer": "Familia política"
+    },
+    {
+      "question": "What is: Father-in-law?",
+      "options": ["Suegro", "Padrastro", "Tío", "Abuelo", "Padrino"],
+      "answer": "Suegro"
+    },
+    {
+      "question": "What is: Mother-in-law?",
+      "options": ["Suegra", "Madrastra", "Tía", "Abuela", "Madrina"],
+      "answer": "Suegra"
+    },
+    {
+      "question": "What is: Son-in-law?",
+      "options": ["Yerno", "Cuñado", "Sobrino", "Primo", "Hijastro"],
+      "answer": "Yerno"
+    },
+    {
+      "question": "What is: Daughter-in-law?",
+      "options": ["Nuera", "Cuñada", "Sobrina", "Prima", "Hijastra"],
+      "answer": "Nuera"
+    },
+    {
+      "question": "What is: Brother-in-law?",
+      "options": ["Cuñado", "Hermano", "Primo", "Yerno", "Padrino"],
+      "answer": "Cuñado"
+    },
+    {
+      "question": "What is: Sister-in-law?",
+      "options": ["Cuñada", "Hermana", "Prima", "Nuera", "Madrina"],
+      "answer": "Cuñada"
+    },
+    {
+      "question": "What is: Step-father?",
+      "options": ["Padrastro", "Suegro", "Padre", "Padrino", "Tío"],
+      "answer": "Padrastro"
+    },
+    {
+      "question": "What is: Step-mother?",
+      "options": ["Madrastra", "Suegra", "Madre", "Madrina", "Tía"],
+      "answer": "Madrastra"
+    },
+    {
+      "question": "What is: Step-brother?",
+      "options": ["Hermanastro", "Medio hermano", "Cuñado", "Primo", "Hermano"],
+      "answer": "Hermanastro"
+    },
+    {
+      "question": "What is: Step-sister?",
+      "options": ["Hermanastra", "Media hermana", "Cuñada", "Prima", "Hermana"],
+      "answer": "Hermanastra"
+    },
+    {
+      "question": "What is: Half-brother?",
+      "options": ["Medio hermano", "Hermanastro", "Hermano", "Cuñado", "Primo"],
+      "answer": "Medio hermano"
+    },
+    {
+      "question": "What is: Half-sister?",
+      "options": ["Media hermana", "Hermanastra", "Hermana", "Cuñada", "Prima"],
+      "answer": "Media hermana"
+    },
+    {
+      "question": "What is: Godfather?",
+      "options": ["Padrino", "Suegro", "Tío", "Padre", "Abuelo"],
+      "answer": "Padrino"
+    },
+    {
+      "question": "What is: Godmother?",
+      "options": ["Madrina", "Suegra", "Tía", "Madre", "Abuela"],
+      "answer": "Madrina"
+    },
+    {
+      "question": "What is: Godson?",
+      "options": ["Ahijado", "Nieto", "Sobrino", "Hijo", "Primo"],
+      "answer": "Ahijado"
+    },
+    {
+      "question": "What is: Goddaughter?",
+      "options": ["Ahijada", "Nieta", "Sobrina", "Hija", "Prima"],
+      "answer": "Ahijada"
+    },
+    {
+      "question": "What is: Ancestors?",
+      "options": ["Antepasados", "Descendientes", "Parientes", "Abuelos", "Padres"],
+      "answer": "Antepasados"
+    },
+    {
+      "question": "What is: Descendants?",
+      "options": ["Descendientes", "Antepasados", "Parientes", "Hijos", "Nietos"],
+      "answer": "Descendientes"
+    },
+    {
+      "question": "What is: Relatives?",
+      "options": ["Parientes / familiares", "Padres", "Hijos", "Inmediatos", "Amigos"],
+      "answer": "Parientes / familiares"
     }
   ]
 }
